@@ -1,0 +1,11 @@
+MODULE main
+VAR 
+    temp :{low, medium, high};
+ASSIGN
+    init(temp) := low;
+    next(temp) := 
+        case
+            temp = low : medium;
+            temp = medium : high;
+            temp = high : low;
+        esac;

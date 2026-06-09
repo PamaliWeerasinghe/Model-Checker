@@ -9,3 +9,14 @@ ASSIGN
             light  = green : yellow;
             light = yellow : red;
         esac;
+
+--Adding rules
+--Safety Property (LTL)
+LTLSPEC G !(light = green & X light = green)
+
+--Liveness Property (LTL)
+LTLSPEC F light = green
+
+--Transition Property
+LTLSPEC G (light = green -> X light = yellow)
+

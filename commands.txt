@@ -18,3 +18,6 @@ NuSMV -int ligh.smv
 
 ##light.smv and traffic_light.smv were checked without rules
 ## rules like CTL and LTL are use to check
+
+---------------------------------------Adding Rules (LTL)---------------------------------
+check_lplstec (Verifies LTL properties)
