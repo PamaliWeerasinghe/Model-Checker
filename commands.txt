@@ -1,3 +1,4 @@
+------------------------------light.smv---------------------------------------------------
 #Initialize the code
 NuSMV -int ligh.smv
 
@@ -8,3 +9,12 @@ NuSMV -int ligh.smv
 #Run 'pick_state'
 
 #Run 'simulate -i'
+
+----------------------traffic_light.smv---------------------------------------------------
+
+
+
+
+
+##light.smv and traffic_light.smv were checked without rules
+## rules like CTL and LTL are use to check
