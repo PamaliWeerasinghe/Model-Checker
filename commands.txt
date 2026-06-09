@@ -1,0 +1,10 @@
+#Initialize the code
+NuSMV -int ligh.smv
+
+#Run 'go' after Initializing
+
+#Run 'print_reachable_states'
+
+#Run 'pick_state'
+
+#Run 'simulate -i'
