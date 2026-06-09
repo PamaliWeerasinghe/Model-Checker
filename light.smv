@@ -1,0 +1,10 @@
+MODULE main
+VAR 
+    light : {on,off};
+ASSIGN
+    init(light) := off;
+    next(light) := 
+        case
+            light = on : off; --If light is 'on', next state is 'off'
+            light = off : on; --If light is 'off', next state is 'on'
+        esac;
